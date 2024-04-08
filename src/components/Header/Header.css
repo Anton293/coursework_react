@@ -1,0 +1,11 @@
+.App-header {
+    background: url("logo512.png") no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}

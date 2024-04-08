@@ -1,0 +1,8 @@
+.Footer {
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #3c2323;
+    color: aliceblue;
+    border-top: 2px solid #888888;
+    text-align: center;
+}
