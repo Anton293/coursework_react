@@ -1,5 +1,5 @@
 .App-header {
-    background: url("logo512.png") no-repeat;
+    background: url("https://images.pexels.com/photos/371900/pexels-photo-371900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat;
     background-size: 100%;
     min-height: 100vh;
     display: flex;
@@ -9,3 +9,5 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
+
+

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Сайт-візитка",
+  "name": "Односторінкова сайт-візитка компанії",
   "icons": [
     {
       "src": "favicon.ico",

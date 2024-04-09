@@ -1,7 +1,5 @@
 import "./Header.css"
 
-import {React, useState} from 'react';
-
 import myImage from './logo512.png';
 
 
@@ -9,31 +7,19 @@ import myImage from './logo512.png';
 // розділ з цінами(якщо багато їх то по категоріям розділення), новини
 
 
-function MyButton({onClick, count}) {
-    return (
-        <>
-            <button onClick={onClick}>I'm a button {count}</button>
-        </>
-    );
-}
-
-
 function MyComponent() {
-    const [count, setCount] = useState(0);
-
-    function handleClick() {
-        setCount(count + 1);
-    }
-
     return (
         <div>
             <header className="App-header">
-                <img src={myImage} alt="Моє зображення" width="200px"/>
-                <MyButton count={count} onClick={handleClick}/>
-                <a href="https://google.com">url google</a>
+                <h1>EcoSmart Innovations</h1>
+                <img src={myImage} alt="Logo" width="50px"/>
+                <a href="#about-content">Чим ми займаємося</a>
+                <a href="#about-content">Ціни</a>
+                <a href="#about-content">Про нас</a>
+                <a href="#about-content">Зворотній зв'язок</a>
             </header>
         </div>
-);
+    );
 }
 
 export default MyComponent;
