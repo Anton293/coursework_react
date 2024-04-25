@@ -1,0 +1,38 @@
+.contact-content{
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.contact-center-button{
+    margin: 0 auto;
+}
+
+
+.card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid #007bff;
+    width: 100%;
+    max-width: 480px;
+    min-width: 250px;
+    margin: 5px auto;
+}
+h2 {
+    color: #007bff;
+}
+.info {
+    margin-top: 20px;
+}
+.info p {
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        border: none;
+        border-radius: 0;
+        padding: 0;
+    }
+}

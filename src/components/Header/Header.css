@@ -1,13 +1,54 @@
 .App-header {
-    background: url("https://images.pexels.com/photos/371900/pexels-photo-371900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat;
-    background-size: 100%;
+    background: url("textures.jpg") center center / cover no-repeat;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(12px + 2vmin);
     color: white;
 }
 
+.App-header h1 {
+    color: #fff;
+    text-shadow: 2px 2px 50px rgba(0, 178, 255, 0.5);
+    font-size: 72px;
+    font-weight: 600;
+    padding: 30px;
+}
 
+ul.App-header-menu{
+
+}
+ul.App-header-menu li{
+    display: inline-block;
+    margin: 0 0 48px 10px;
+}
+ul.App-header-menu li a{
+    padding: 20px 20px;
+    font-size: 28px;
+    font-weight: 600;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+    .App-header{
+
+    }
+    ul.App-header-menu li{
+        margin: 30px 30px;
+    }
+    ul.App-header-menu li a{
+        display: block;
+        font-size: 28px;
+        border-radius: 30px;
+    }
+
+    ul.App-header-menu li:hover a{
+        background-color: #0056b3;
+        color: #fff;
+    }
+}

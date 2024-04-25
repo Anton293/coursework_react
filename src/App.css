@@ -8,7 +8,34 @@
 
 }
 
+
 .block-content {
     margin: 0 auto;
     max-width: 1200px;
+    font-size: 26px;
+    padding: 30px;
+}
+
+.mobile-button-blue{
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    min-width: 200px;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 30px;
+    transition: background-color 0.5s, color 0.3s;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 480px) {
+    .block-content{
+        font-size: 30px;
+    }
 }
