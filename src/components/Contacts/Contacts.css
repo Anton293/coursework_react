@@ -36,3 +36,15 @@ h2 {
         padding: 0;
     }
 }
+
+
+a{
+    text-decoration: none;
+
+    color: #222222;
+}
+
+a:hover {
+    text-decoration-color: #b30000;
+    text-decoration: underline;
+}
